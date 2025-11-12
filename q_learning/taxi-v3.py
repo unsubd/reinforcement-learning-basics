@@ -60,3 +60,5 @@ for episode in range(10):
         time.sleep(0.3)
 
     print("Test Episode", episode, "Reward", total_reward)
+
+env.close()
